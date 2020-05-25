@@ -36,13 +36,11 @@ Eventhough well funded XYZ Company Ltd. need to choose the correct location to s
 
 ### Target Audience
 
-To recommend the correct location, XYZ Company Ltd has appointed me to locate and recommend to the management which neighborhood of New York city will be best choice for starting a restaurant venture. The Management also expects to understand the rationale of the recommendations made.
-
-This would interest anyone who wants to start a new restaurant in Newyork city.
+To recommend the correct location, XYZ Company Ltd has appointed me to locate and recommend to the management which neighborhood of New York city will be best choice for starting a restaurant venture. The Management also expects to understand the rationale of the recommendations made. This would also interest anyone who wants to start a new restaurant in Newyork city.
 
 ### Success Criteria
 
-The success criteria of the project will be a good recommendation of borough/Neighborhood choice to XYZ Company Ltd based on Lack of such restaurants in that location and nearest suppliers of ingredients.
+The success criteria of the project will be a good recommendation of borough/neighborhood choice to XYZ Company Ltd based on Lack of such restaurants in that location and nearest suppliers of ingredients.
 
 ## 2. Data
 
@@ -50,22 +48,8 @@ One city will be analysed in this project : **Newyork City**.
 
 We will be using the below datasets for analysing Newyork city.
 
-***Data 1 :*** Neighborhood has a total of 5 boroughs and 306 neighborhoods. In order to segement the neighborhoods and explore them, we will essentially need a dataset that contains the 5 boroughs and the neighborhoods that exist in each borough as well as the the latitude and logitude coordinates of each neighborhood.
-
-This dataset exists for free on the [web](https://geo.nyu.edu/catalog/nyu_2451_34572).
-
-||Borough|Neighborhood|Latitude|Longitude|
-|---|---|---|---|---|
-|0|Bronx|Wakefield|40.894705|-73.847201|
-|1|Bronx|Co-op City|40.874294|-73.829939|
-|2|Bronx|Eastchester|40.887556|-73.827806|
-|3|Bronx|Fieldston|40.895437|-73.905643|
-|4|Bronx|Riverdale|40.890834|-73.912585|
+***Data 1 :*** New York City has a total of 5 boroughs and 306 neighborhoods. This dataset exists for free on the [web](https://geo.nyu.edu/catalog/nyu_2451_34572).
 
 ***Data 2 :*** Second data which will be used is the DOHMH Farmers Markets and Food Boxes dataset available [here](https://data.cityofnewyork.us/dataset/DOHMH-Farmers-Markets-and-Food-Boxes/8vwk-6iz2).
-
-GrowNYC's Fresh Food Box Program is a food access initiative that enables under-served communities to purchase fresh, healthy, and primarily regionally grown produce well below traditional retail prices.
-
-A farmers' market is often defined as a public site used by two or more local or regional producers for the direct sale of farm products to consumers. In addition to fresh fruits and vegetables, markets may sell dairy products, fish, meat, baked goods, and other minimally processed foods.
 
 ***Data 3 :*** Newyork city geographical coordinates data will be utilized as input for the Foursquare API, that will be leveraged to provision venues information for each neighborhood.We will use the Foursquare API to explore neighborhoods in New York City.

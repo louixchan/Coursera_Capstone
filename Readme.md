@@ -77,6 +77,8 @@ New York city neighbourhood has a total of 5 boroughs and 306 neighborhoods. In 
 |  3 | Fieldston   |         1 | Bronx     | POINT (-73.90564259591682 40.89543742690383) |    -73.9056 |    40.8954 |
 |  4 | Riverdale   |         1 | Bronx     | POINT (-73.9125854610857 40.8908344938913)   |    -73.9126 |    40.8908 |
 
+[](https://github.com/louixchan/Coursera_Capstone/blob/master/images/Picture1.png)
+
 ***Data 2 :*** Foursquare dataset.
 
 1. There are a total of 9,905 locations returned for the 306 Neighbourhoods
@@ -105,9 +107,19 @@ The most common restaurant categories are as follows:
 
 To cluster the neighborhoods into two clusters we used the K-Means clustering Algorithm. k-means clustering aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean. It uses iterative refinement approach. In order to obtain the optimal settings, `KElbowVisualizer` from `yellowbrick` has been used. From the visualisation below, we can see that the optimal settings is at `k=12`, i.e. 12 clusters.
 
+[](https://github.com/louixchan/Coursera_Capstone/blob/master/images/Picture3.png)
+
 **Interpretation of Clustering Results:**
 
 By looking into the restaurant compositions of the individual neighborhoods, there are two main groups of clusters, one that is located closer to the city centre, with a higher proportion of café and coffee shop related restaurants, while the other is on the fringe which has a higher pizza place proportion. This shows essentially two different strategies, one for the city centre with potentially more office-targeted while the other one is for the outskirt which is more takeaway or fastfood focused.
+
+[](https://github.com/louixchan/Coursera_Capstone/blob/master/images/Picture2.png)
+
+**Cluster 0, 2, 3, 4**
+[](https://github.com/louixchan/Coursera_Capstone/blob/master/images/Picture4.png)
+
+**Cluster 1, 5, 6, 7, 8**
+[](https://github.com/louixchan/Coursera_Capstone/blob/master/images/Picture5.png)
 
 ## 5. Discussion
 
